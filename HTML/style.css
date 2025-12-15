@@ -1,0 +1,17 @@
+p::before {
+  content: "👉 ";
+}
+
+p::after {
+  content: " ✔";
+}
+
+::selection {
+  background-color: yellow;
+  color: red;
+}
+
+p:hover {
+  background-color: mediumseagreen;
+  border: 5px solid red;
+}

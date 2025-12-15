@@ -1,0 +1,22 @@
+{
+  "name": "1_backend",
+  "version": "1.0.0",
+  "description": "learning backend ",
+  "main": "math.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "--"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Mangalam",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}

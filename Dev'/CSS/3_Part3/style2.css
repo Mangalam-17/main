@@ -1,0 +1,35 @@
+/* h2{
+    display:inline;
+}
+
+span{
+    display:block;
+} */
+/* 
+span{
+    background-color: crimson;
+    border:2px solid black;
+    height:100px;
+    width:20px;
+    padding:50px;
+}
+
+div{
+    border:2px solid black;
+    height:100px;
+    width:200px;
+    padding:50px;
+} */
+
+div{
+    height:200px;
+    width:200px;
+    background-color: hotpink;
+    border:2px solid black;
+    margin:5px;
+    display: inline-block;
+}
+
+#third{
+    display: none;
+}

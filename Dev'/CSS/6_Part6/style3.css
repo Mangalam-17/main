@@ -1,0 +1,42 @@
+h1 {
+    background-color: tomato;
+    border: 2px solid black;
+}
+
+@media (width:400px) {
+    h1 {
+        background-color: cornflowerblue;
+        color: cornsilk;
+    }
+
+    div {
+        height: 120px;
+        width: 140px;
+        background-color: burlywood;
+    }
+}
+
+@media (min-width:400px) {
+    h1 {
+        background-color: chocolate;
+    }
+}
+
+@media (max-width:200px) {
+    h1 {
+        background-color:darkgoldenrod;
+    }
+}
+
+@media (min-width:400px) and (max-width: 500px) {
+    h1 {
+        background-color:firebrick;
+    }
+}
+
+@media (orientation:landscape){
+    h1{
+        background-color: deeppink;
+        color: indigo;
+    }
+}
